@@ -2,9 +2,9 @@
 
 Actor::Actor()
 {
-	Pos.X = 0;
-	Pos.Y = 0;
-	Icon = ' ';
+	bIsMovable = false;
+	Pos = Vector2D(0, 0);
+	Icon = "  ";
 }
 
 Actor::~Actor()

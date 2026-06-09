@@ -3,8 +3,16 @@
 
 #include "SokobanGame.h"
 
+// Debug: 메모리 누수 확인
+#define _CRTDBG_MAP_ALLOC
+#include <crtdbg.h>
+
 int main()
 {
+    // Debug: 메모리 누수 확인
+    _CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
+    //_CrtSetBreakAlloc(493);
+
     SokobanGame Game;
     Game.GameRun();
 }

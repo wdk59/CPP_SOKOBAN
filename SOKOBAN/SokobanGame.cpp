@@ -1,6 +1,7 @@
 #include "SokobanGame.h"
 
 #include <iostream>
+#include "Windows.h"
 
 SokobanGame::SokobanGame()
 {
@@ -25,7 +26,7 @@ void SokobanGame::GameReady()
 
 void SokobanGame::GamePlay()
 {
-	printf("😊██ ■██ □ ▣\n");
+	printf("😊██ ■██ □ ▣ ░░ ▓▓\n");
 	printf("😀──██😊🕺🏃‍♂️🏃🏃‍♂️‍➡️🏃‍➡️\n");
 	PrintScreen();
 }
