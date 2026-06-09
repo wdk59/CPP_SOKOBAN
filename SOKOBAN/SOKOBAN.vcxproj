@@ -127,7 +127,7 @@
     <ClCompile Include="Box.cpp" />
     <ClCompile Include="House.cpp" />
     <ClCompile Include="IMovable.cpp" />
-    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="GameWorld.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="SOKOBAN.cpp" />
     <ClCompile Include="SokobanGame.cpp" />
@@ -138,7 +138,7 @@
     <ClInclude Include="Box.h" />
     <ClInclude Include="House.h" />
     <ClInclude Include="IMovable.h" />
-    <ClInclude Include="Map.h" />
+    <ClInclude Include="GameWorld.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="SokobanCommon.h" />
     <ClInclude Include="SokobanGame.h" />

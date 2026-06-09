@@ -25,15 +25,15 @@
     <Filter Include="헤더 파일\Objects">
       <UniqueIdentifier>{6ac2c5bb-562e-4390-9e33-45013fa1328c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\GamePlay">
+      <UniqueIdentifier>{0c99fc3a-f142-407c-b7a9-7def72fd9ace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\GamePlay">
+      <UniqueIdentifier>{82b5aede-8a4f-4e72-8f6e-473b0777031b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SOKOBAN.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="SokobanGame.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Map.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Actor.cpp">
@@ -54,17 +54,14 @@
     <ClCompile Include="Wall.cpp">
       <Filter>소스 파일\Objects</Filter>
     </ClCompile>
+    <ClCompile Include="SokobanGame.cpp">
+      <Filter>소스 파일\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWorld.cpp">
+      <Filter>소스 파일\GamePlay</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="SokobanGame.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="SokobanCommon.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Map.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
     <ClInclude Include="Actor.h">
       <Filter>헤더 파일\Base</Filter>
     </ClInclude>
@@ -82,6 +79,15 @@
     </ClInclude>
     <ClInclude Include="Wall.h">
       <Filter>헤더 파일\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWorld.h">
+      <Filter>헤더 파일\GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="SokobanGame.h">
+      <Filter>헤더 파일\GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="SokobanCommon.h">
+      <Filter>헤더 파일\Base</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
