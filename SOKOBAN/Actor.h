@@ -1,5 +1,4 @@
 #pragma once
-
 #include "SokobanCommon.h"
 
 class Actor
@@ -8,6 +7,6 @@ public :
 	Actor();
 	virtual ~Actor();
 
-	Position Pos;
+	Vector2D Pos;
 	char Icon = ' ';
 };
