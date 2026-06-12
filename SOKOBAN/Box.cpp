@@ -1,12 +1,11 @@
 #include "Box.h"
 
-Box::Box()
+Box::Box(int InX = 0, int InY = 0)
 {
-	ID = Actor::Box;
-	bIsMovable = true;
+	ID = ActorType::Box;
 	Icon = "██";
-	// Pos 설정 필요
-	// Color 설정 필요
+	Pos = Vector2D(InX, InY);
+
 }
 
 Box::~Box()

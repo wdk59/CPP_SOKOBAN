@@ -4,8 +4,12 @@
 
 class Actor
 {
+public:
+	Actor(int InX = 0, int InY = 0);
+	virtual ~Actor();
+
 protected :
-	enum ActorType
+	enum class ActorType
 	{
 		DefaultActor,
 		Player,
@@ -15,13 +19,12 @@ protected :
 		SIZE_OF_ACTOR_TYPE
 	};
 
-	ActorType ID = DefaultActor;	// 액터 종류
-	bool bIsMovable = false;
+	ActorType ID = ActorType::DefaultActor;	// 액터 종류
 	std::string Icon = "  ";	// default: 2byte
 	Vector2D Pos;
 
 public :
-	Actor();
-	virtual ~Actor();
-
+	inline ActorType GetID() const { return ID; };
+	inline std::string GetIcon() const { return Icon; };
+	inline Vector2D GetPos() const { return Pos; };
 };

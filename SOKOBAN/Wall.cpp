@@ -1,14 +1,13 @@
 #include "Wall.h"
 
-Wall::Wall()
+Wall::Wall(int InX = 0, int InY = 0)
 {
-	ID = Actor::Wall;
-	bIsMovable = false;
+	ID = ActorType::Wall;
 	Icon = "██";
-	// Pos 설정 필요
-	// Color 설정 필요: 회색
+	Pos = Vector2D(InX, InY);
 }
 
 Wall::~Wall()
 {
+
 }

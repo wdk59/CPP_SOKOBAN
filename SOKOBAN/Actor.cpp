@@ -1,10 +1,10 @@
 #include "Actor.h"
 
-Actor::Actor()
+Actor::Actor(int InX = 0, int InY = 0)
 {
-	bIsMovable = false;
 	Pos = Vector2D(0, 0);
 	Icon = "  ";
+	Pos = Vector2D(InX, InY);
 }
 
 Actor::~Actor()

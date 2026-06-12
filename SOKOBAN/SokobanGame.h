@@ -1,13 +1,15 @@
 #pragma once
+
 class SokobanGame
 {
+public:
+	SokobanGame();
+	virtual ~SokobanGame();
+
 private :
 	bool bIsRunning = false;
 
 public :
-	SokobanGame();
-	virtual ~SokobanGame();
-
 	void GameRun();
 	void GameReady();
 	void GamePlay();
