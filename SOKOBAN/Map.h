@@ -27,11 +27,13 @@ private :
 	int Height = 0;
 	int* MapInfo = nullptr;
 	
-	void ParseMap();
+	// 맵 정보가 저장된 파일 읽기
+	std::string ReadFile(const std::string InPath);
+	// 파싱 성공 여부 반환
+	bool ParseMap(const std::string MapDataString);
 
 public :
-	int* GetMapInfo();
-
+	inline int* GetMapInfo() const { return MapInfo; };
 	inline Vector2D GetMapSize() const { return Vector2D(Width, Height); };
 
 };
