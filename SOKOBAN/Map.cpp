@@ -121,4 +121,6 @@ bool Map::ParseMap(const std::string MapDataString)
 			X = 0;
 		}
 	}
+
+	return MapInfo != nullptr;
 }

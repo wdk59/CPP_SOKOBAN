@@ -1,6 +1,6 @@
 #include "Actor.h"
 
-Actor::Actor(int InX = 0, int InY = 0)
+Actor::Actor(int InX, int InY)
 {
 	Pos = Vector2D(0, 0);
 	Icon = "  ";

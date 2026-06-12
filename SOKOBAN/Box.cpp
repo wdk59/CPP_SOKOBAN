@@ -1,6 +1,6 @@
 #include "Box.h"
 
-Box::Box(int InX = 0, int InY = 0)
+Box::Box(int InX, int InY)
 {
 	ID = ActorType::Box;
 	Icon = "██";

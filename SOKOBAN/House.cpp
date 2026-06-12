@@ -1,6 +1,6 @@
 #include "House.h"
 
-House::House(int InX = 0, int InY = 0)
+House::House(int InX, int InY)
 {
 	ID = ActorType::House;
 	Icon = TileIcons[0];	// 2가지 타입 중 현재 사용 중인 아이콘 저장

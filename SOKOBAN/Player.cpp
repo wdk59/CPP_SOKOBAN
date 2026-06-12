@@ -1,6 +1,6 @@
 #include "Player.h"
 
-Player::Player(int InX = 0, int InY = 0)
+Player::Player(int InX, int InY)
 {
 	ID = ActorType::Player;
 	Icon = DirectionIcons[0];   // 오른쪽, 왼쪽 따라 2가지 아이콘 중 현재 아이콘

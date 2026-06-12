@@ -17,16 +17,3 @@ struct Vector2D
 	inline Vector2D& operator +=(const Vector2D& InOther) { X += InOther.X; Y += InOther.Y; return *this; }
 };
 
-enum class DirectionType
-{
-	Up,
-	Down,
-	Left,
-	Right
-};
-Vector2D DefaultDirections[4] = {
-	Vector2D(0, -1),	// Up
-	Vector2D(0, 1),		// Down
-	Vector2D(-1, 0),	// Left
-	Vector2D(1, 0)		// Right
-};

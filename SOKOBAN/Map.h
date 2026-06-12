@@ -23,8 +23,8 @@ public :
 
 private :
 	std::string Path = "";
-	int Width = 0;
-	int Height = 0;
+	unsigned int Width = 0;
+	unsigned int Height = 0;
 	int* MapInfo = nullptr;
 	
 	// 맵 정보가 저장된 파일 읽기

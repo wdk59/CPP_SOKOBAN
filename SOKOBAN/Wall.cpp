@@ -1,6 +1,6 @@
 #include "Wall.h"
 
-Wall::Wall(int InX = 0, int InY = 0)
+Wall::Wall(int InX, int InY)
 {
 	ID = ActorType::Wall;
 	Icon = "██";
